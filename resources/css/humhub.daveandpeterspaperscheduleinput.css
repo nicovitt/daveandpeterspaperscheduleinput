@@ -1,0 +1,29 @@
+#paper-drop-zone {
+    border: 1px solid #ededed;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#paper-drop-zone .blinker {
+    display: inline;
+    font-size: 2rem;
+    font-weight: 700;
+    animation: blinker 6s linear infinite;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 100%;
+    text-transform: uppercase;
+}
+
+@keyframes blinker {
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}

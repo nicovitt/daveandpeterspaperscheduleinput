@@ -1,0 +1,19 @@
+{
+    "id": "daveandpeterspaperscheduleinput",
+    "name": "Dave-and-Peters-paper-schedule-input",
+    "description": "A module to provide an interface to insert Tasks into the task list.",
+    "keywords": [
+        "paper support"
+    ],
+    "version": "0.1",
+    "humhub": {
+        "minVersion": "1.2"
+    },
+    "homepage": "https://github.com/nicovitt/daveandpeterspaperscheduleinput",
+    "authors": [
+        {
+            "name": "Nico Vitt"
+        }
+    ],
+    "screenshots": []
+}
